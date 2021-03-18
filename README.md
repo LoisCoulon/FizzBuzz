@@ -1,12 +1,9 @@
 # FizzBuzz
 
-###Le FizzBuzz est un jeu simple.
-
-###Prenons deux joueurs, Alice et Bob.
-
-###Alice va donner un nombre à Bob.
-
-###Bob va répondre selon ces règles:
+Le FizzBuzz est un jeu simple.
+Prenons deux joueurs, Alice et Bob.
+Alice va donner un nombre à Bob.
+Bob va répondre selon ces règles:
 
 - Si le nombre est 0 -> Une erreur est levée.
 - Si le nombre est négatif -> Une erreur est levée.
