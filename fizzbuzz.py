@@ -11,16 +11,19 @@ print("Taper '404' pour sortir du programme")
 x=int(input())
 while x != 404:
     if (x<=0):
-        raise ValueError("Le chiffre doit être supérieur à 0")
+        raise Exception("Le chiffre doit être supérieur à 0")
         x=int(input())
     elif (x%3) == 0 and (x%5 != 0):
         print("Fizz")
         x=int(input())
-    elif x%5 == 0 and (x%3 != 0):
+    elif (x%5 == 0) and (x%3 != 0):
         print("Buzz")
         x=int(input())
     elif (x%3 == 0) and (x%5 == 0):
         print("FizzBuzz")
+        x=int(input())
+    elif x is None:
+        print("Vous devez taper un chiffre")
         x=int(input())
     else:
         print(x)
