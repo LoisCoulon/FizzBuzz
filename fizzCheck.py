@@ -12,7 +12,8 @@ class fizzChecker:
         if (x%5) == 0 and (x%3 != 0):
             return True
 
-    
+        if (x%3 == 0) and (x%5 == 0):
+            return True
             
             
 
