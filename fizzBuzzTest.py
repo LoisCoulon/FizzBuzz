@@ -13,3 +13,11 @@ class FizzBuzzTest(unittest.TestCase):
             x = -1
             actual = fizzChecker.isCorrect(x)
 
+    def is_multiple_of_3_but_not_5(self):
+        x = 3
+        actual = fizzChecker.isCorrect(x)
+        self.assertTrue(actual)
+    
+
+
+
