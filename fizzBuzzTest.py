@@ -28,4 +28,8 @@ class FizzBuzzTest(unittest.TestCase):
         actual = fizzChecker.isCorrect(x)
         self.assertTrue(actual)
 
+    def repeat_self_if_not_multiple_of_3_or_5_and_is_positive(self):
+        x = 2
+        actual = fizzChecker.isCorrect(x)
+        self.assertFalse(actual)
 

@@ -4,16 +4,18 @@ class fizzChecker:
     def isCorrect(x):
         if x <= 0:
             raise(ArgumentError())
-        return False
+            return False
 
-        if (x%3) == 0 and (x%5 != 0):
+        elif (x%3) == 0 and (x%5 != 0):
             return True
 
-        if (x%5) == 0 and (x%3 != 0):
+        elif (x%5) == 0 and (x%3 != 0):
             return True
 
-        if (x%3 == 0) and (x%5 == 0):
+        elif (x%3 == 0) and (x%5 == 0):
             return True
+        else:
+            return False
             
             
 
