@@ -2,7 +2,7 @@ class fizzChecker:
     
     @staticmethod
     def isCorrect(x):
-        if x == 0:
+        if x <= 0:
             raise(ArgumentError())
         return False
 
